@@ -171,6 +171,7 @@ void sort(node* first){
             {
                 x=temp1->data;
                 temp1->data=temp2->data;
+                temp2->data=x;
             }
         }
     }
