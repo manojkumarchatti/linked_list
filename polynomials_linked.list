@@ -159,7 +159,7 @@ node *sub(node *p1,node *p2)
                 }
                 else if (p1->exp<p2->exp)
                 {
-                        new->coeff=-p2->coeff;
+                        new->coeff=p2->coeff;
                         new->exp=p2->exp;
                         p3=addterm(p3,new);
                         p2=p2->next;
