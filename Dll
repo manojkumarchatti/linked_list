@@ -233,7 +233,7 @@ void main(){
                                 search(head,x);
                                 break;
                         case 9:
-                                sorting(head);
+                                sort(head);
                                 break;
                         case 10:
                                 head=reverse(head);
